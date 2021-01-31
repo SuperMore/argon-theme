@@ -12,7 +12,7 @@ add_action('after_setup_theme','theme_slug_setup');
 $GLOBALS['theme_version'] = wp_get_theme() -> Version;
 $argon_assets_path = get_option("argon_assets_path");
 if ($argon_assets_path== "jsdelivr"){
-	$GLOBALS['assets_path'] = "https://cdn.jsdelivr.net/gh/solstice23/argon-theme@" . wp_get_theme() -> Version;
+	$GLOBALS['assets_path'] = "https://cdn.jsdelivr.net/gh/SuperMore/argon-theme@" . wp_get_theme() -> Version;
 }else if ($argon_assets_path == "fastgit"){
 	$GLOBALS['assets_path'] = "https://raw.fastgit.org/solstice23/argon-theme/v" . wp_get_theme() -> Version;
 }else{
