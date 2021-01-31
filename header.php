@@ -376,23 +376,11 @@
 	</div>
 </div>
 <!--Banner-->
+<br><br><br><br><br>
 <section id="banner" class="banner section section-lg section-shaped">
-	<div class="shape <?php echo get_option('argon_banner_background_hide_shapes') == 'true' ? '' : 'shape-style-1' ?> <?php echo get_option('argon_banner_background_color_type') == '' ? 'shape-primary' : get_option('argon_banner_background_color_type'); ?>">
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
+	
 
-	<?php
-		$banner_title = get_option('argon_banner_title') == '' ? get_bloginfo('name') : get_option('argon_banner_title');
-		$enable_banner_title_typing_effect = get_option('argon_enable_banner_title_typing_effect') != 'true' ? "false" : get_option('argon_enable_banner_title_typing_effect');
-	?>
+	
 	<div id="banner_container" class="banner-container container text-center">
 		<?php if ($enable_banner_title_typing_effect != "true"){?>
 			<div class="banner-title text-white"><span class="banner-title-inner"><?php echo $banner_title; ?></span>
@@ -409,7 +397,6 @@
 		</style>
 	<?php } ?>
 </section>
-
 <?php if (get_option('argon_page_background_url') != '') { ?>
 	<style>
 		#content:before {
