@@ -105,7 +105,7 @@ else if ($argon_update_source == 'solstice23top' || $argon_update_source == 'abc
 	);
 }else{
 	$argonThemeUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-		'https://raw.githubusercontent.com/solstice23/argon-theme/master/info.json',
+		'https://raw.githubusercontent.com/SuperMore/argon-theme/master/info.json',
 		get_template_directory() . '/functions.php',
 		'argon'
 	);
