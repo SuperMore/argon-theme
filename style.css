@@ -4103,6 +4103,11 @@ html.darkmode.amoled-dark #content:before , html.darkmode.amoled-dark #content:a
 
 /*==========Style-Mobile==========*/
 
+/*恢复手机右边栏*/
+html.single-column #leftbar{
+	display: block;
+	}
+
 @media screen and (max-width:900px){
 	#float_action_buttons #fabtn_open_sidebar{
 		display: block;
